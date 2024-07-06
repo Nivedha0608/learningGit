@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840DA21F2C397A2000AB8F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA21E2C397A2000AB8F84 /* AppDelegate.swift */; };
+		840DA2212C397A2000AB8F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2202C397A2000AB8F84 /* SceneDelegate.swift */; };
+		840DA2232C397A2000AB8F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2222C397A2000AB8F84 /* ViewController.swift */; };
+		840DA2262C397A2000AB8F84 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 840DA2252C397A2000AB8F84 /* Base */; };
+		840DA2282C397A2100AB8F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840DA2272C397A2100AB8F84 /* Assets.xcassets */; };
+		840DA22B2C397A2100AB8F84 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 840DA22A2C397A2100AB8F84 /* Base */; };
+		840DA2362C397A2100AB8F84 /* Newsetupfor_gitupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2352C397A2100AB8F84 /* Newsetupfor_gitupTests.swift */; };
+		840DA2402C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA23F2C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift */; };
+		840DA2422C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2412C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840DA2322C397A2100AB8F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840DA2132C397A2000AB8F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840DA21A2C397A2000AB8F84;
+			remoteInfo = "Newsetupfor gitup";
+		};
+		840DA23C2C397A2100AB8F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840DA2132C397A2000AB8F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840DA21A2C397A2000AB8F84;
+			remoteInfo = "Newsetupfor gitup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840DA21B2C397A2000AB8F84 /* Newsetupfor gitup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Newsetupfor gitup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DA21E2C397A2000AB8F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840DA2202C397A2000AB8F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		840DA2222C397A2000AB8F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		840DA2252C397A2000AB8F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840DA2272C397A2100AB8F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840DA22A2C397A2100AB8F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840DA22C2C397A2100AB8F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840DA2312C397A2100AB8F84 /* Newsetupfor gitupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Newsetupfor gitupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DA2352C397A2100AB8F84 /* Newsetupfor_gitupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newsetupfor_gitupTests.swift; sourceTree = "<group>"; };
+		840DA23B2C397A2100AB8F84 /* Newsetupfor gitupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Newsetupfor gitupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DA23F2C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newsetupfor_gitupUITests.swift; sourceTree = "<group>"; };
+		840DA2412C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newsetupfor_gitupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840DA2182C397A2000AB8F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DA22E2C397A2100AB8F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DA2382C397A2100AB8F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840DA2122C397A2000AB8F84 = {
+			isa = PBXGroup;
+			children = (
+				840DA21D2C397A2000AB8F84 /* Newsetupfor gitup */,
+				840DA2342C397A2100AB8F84 /* Newsetupfor gitupTests */,
+				840DA23E2C397A2100AB8F84 /* Newsetupfor gitupUITests */,
+				840DA21C2C397A2000AB8F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840DA21C2C397A2000AB8F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840DA21B2C397A2000AB8F84 /* Newsetupfor gitup.app */,
+				840DA2312C397A2100AB8F84 /* Newsetupfor gitupTests.xctest */,
+				840DA23B2C397A2100AB8F84 /* Newsetupfor gitupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840DA21D2C397A2000AB8F84 /* Newsetupfor gitup */ = {
+			isa = PBXGroup;
+			children = (
+				840DA21E2C397A2000AB8F84 /* AppDelegate.swift */,
+				840DA2202C397A2000AB8F84 /* SceneDelegate.swift */,
+				840DA2222C397A2000AB8F84 /* ViewController.swift */,
+				840DA2242C397A2000AB8F84 /* Main.storyboard */,
+				840DA2272C397A2100AB8F84 /* Assets.xcassets */,
+				840DA2292C397A2100AB8F84 /* LaunchScreen.storyboard */,
+				840DA22C2C397A2100AB8F84 /* Info.plist */,
+			);
+			path = "Newsetupfor gitup";
+			sourceTree = "<group>";
+		};
+		840DA2342C397A2100AB8F84 /* Newsetupfor gitupTests */ = {
+			isa = PBXGroup;
+			children = (
+				840DA2352C397A2100AB8F84 /* Newsetupfor_gitupTests.swift */,
+			);
+			path = "Newsetupfor gitupTests";
+			sourceTree = "<group>";
+		};
+		840DA23E2C397A2100AB8F84 /* Newsetupfor gitupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840DA23F2C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift */,
+				840DA2412C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift */,
+			);
+			path = "Newsetupfor gitupUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840DA21A2C397A2000AB8F84 /* Newsetupfor gitup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840DA2452C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitup" */;
+			buildPhases = (
+				840DA2172C397A2000AB8F84 /* Sources */,
+				840DA2182C397A2000AB8F84 /* Frameworks */,
+				840DA2192C397A2000AB8F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Newsetupfor gitup";
+			productName = "Newsetupfor gitup";
+			productReference = 840DA21B2C397A2000AB8F84 /* Newsetupfor gitup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840DA2302C397A2100AB8F84 /* Newsetupfor gitupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840DA2482C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitupTests" */;
+			buildPhases = (
+				840DA22D2C397A2100AB8F84 /* Sources */,
+				840DA22E2C397A2100AB8F84 /* Frameworks */,
+				840DA22F2C397A2100AB8F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840DA2332C397A2100AB8F84 /* PBXTargetDependency */,
+			);
+			name = "Newsetupfor gitupTests";
+			productName = "Newsetupfor gitupTests";
+			productReference = 840DA2312C397A2100AB8F84 /* Newsetupfor gitupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840DA23A2C397A2100AB8F84 /* Newsetupfor gitupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840DA24B2C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitupUITests" */;
+			buildPhases = (
+				840DA2372C397A2100AB8F84 /* Sources */,
+				840DA2382C397A2100AB8F84 /* Frameworks */,
+				840DA2392C397A2100AB8F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840DA23D2C397A2100AB8F84 /* PBXTargetDependency */,
+			);
+			name = "Newsetupfor gitupUITests";
+			productName = "Newsetupfor gitupUITests";
+			productReference = 840DA23B2C397A2100AB8F84 /* Newsetupfor gitupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840DA2132C397A2000AB8F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					840DA21A2C397A2000AB8F84 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					840DA2302C397A2100AB8F84 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 840DA21A2C397A2000AB8F84;
+					};
+					840DA23A2C397A2100AB8F84 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 840DA21A2C397A2000AB8F84;
+					};
+				};
+			};
+			buildConfigurationList = 840DA2162C397A2000AB8F84 /* Build configuration list for PBXProject "Newsetupfor gitup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840DA2122C397A2000AB8F84;
+			productRefGroup = 840DA21C2C397A2000AB8F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840DA21A2C397A2000AB8F84 /* Newsetupfor gitup */,
+				840DA2302C397A2100AB8F84 /* Newsetupfor gitupTests */,
+				840DA23A2C397A2100AB8F84 /* Newsetupfor gitupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840DA2192C397A2000AB8F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DA2282C397A2100AB8F84 /* Assets.xcassets in Resources */,
+				840DA22B2C397A2100AB8F84 /* Base in Resources */,
+				840DA2262C397A2000AB8F84 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DA22F2C397A2100AB8F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DA2392C397A2100AB8F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840DA2172C397A2000AB8F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DA2232C397A2000AB8F84 /* ViewController.swift in Sources */,
+				840DA21F2C397A2000AB8F84 /* AppDelegate.swift in Sources */,
+				840DA2212C397A2000AB8F84 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DA22D2C397A2100AB8F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DA2362C397A2100AB8F84 /* Newsetupfor_gitupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DA2372C397A2100AB8F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DA2402C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift in Sources */,
+				840DA2422C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840DA2332C397A2100AB8F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840DA21A2C397A2000AB8F84 /* Newsetupfor gitup */;
+			targetProxy = 840DA2322C397A2100AB8F84 /* PBXContainerItemProxy */;
+		};
+		840DA23D2C397A2100AB8F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840DA21A2C397A2000AB8F84 /* Newsetupfor gitup */;
+			targetProxy = 840DA23C2C397A2100AB8F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840DA2242C397A2000AB8F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DA2252C397A2000AB8F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840DA2292C397A2100AB8F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DA22A2C397A2100AB8F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840DA2432C397A2100AB8F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840DA2442C397A2100AB8F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840DA2462C397A2100AB8F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Newsetupfor gitup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poc.Newsetupfor-gitup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840DA2472C397A2100AB8F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Newsetupfor gitup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poc.Newsetupfor-gitup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840DA2492C397A2100AB8F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poc.Newsetupfor-gitupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Newsetupfor gitup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Newsetupfor gitup";
+			};
+			name = Debug;
+		};
+		840DA24A2C397A2100AB8F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poc.Newsetupfor-gitupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Newsetupfor gitup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Newsetupfor gitup";
+			};
+			name = Release;
+		};
+		840DA24C2C397A2100AB8F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poc.Newsetupfor-gitupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Newsetupfor gitup";
+			};
+			name = Debug;
+		};
+		840DA24D2C397A2100AB8F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poc.Newsetupfor-gitupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Newsetupfor gitup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840DA2162C397A2000AB8F84 /* Build configuration list for PBXProject "Newsetupfor gitup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DA2432C397A2100AB8F84 /* Debug */,
+				840DA2442C397A2100AB8F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840DA2452C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DA2462C397A2100AB8F84 /* Debug */,
+				840DA2472C397A2100AB8F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840DA2482C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DA2492C397A2100AB8F84 /* Debug */,
+				840DA24A2C397A2100AB8F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840DA24B2C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DA24C2C397A2100AB8F84 /* Debug */,
+				840DA24D2C397A2100AB8F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840DA2132C397A2000AB8F84 /* Project object */;
+}
