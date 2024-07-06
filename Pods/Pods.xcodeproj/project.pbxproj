@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204DD7E549D76C9DAFB665BE6952EA00 /* Pods-Newsetupfor gitup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415EF883E80FF0E054E9356D05F5E888 /* Pods-Newsetupfor gitup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0EE10048D2662711FB61FA8576E989 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A77EBA487C80AA12AB3D3398BB2E7 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-dummy.m */; };
+		620509385CCF61D63759F8B62F172550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		805162101A1D035477A9B4036A64EA1A /* Pods-Newsetupfor gitup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D3927DF72F7BBD822163A74DCA2613 /* Pods-Newsetupfor gitup-dummy.m */; };
+		8170E0AD89606E80346318CBCA42C558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E42823821F609140E986BA55B5A181D /* Pods-Newsetupfor gitupTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 780009F1928B02939D23BAFCB7436063 /* Pods-Newsetupfor gitupTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3382D9CBD638EB2A7AD53C8FF8AE076 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30F3A632DEC09FE950EEA800BEF3887 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFDFA8C5BE1D20091EA5877BB48B55F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EE13F47FC981BF7785D4AAF8BD5775F8 /* Pods-Newsetupfor gitupTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24980AE08D7947175E347CABFD10EE /* Pods-Newsetupfor gitupTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		757315D92BE42E7FD2CEF1932F76FA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B07C689206B9FB8C34D55B19850834;
+			remoteInfo = "Pods-Newsetupfor gitup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1932B43C923D418C85AD50C9A0001789 /* Pods-Newsetupfor gitupTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Newsetupfor gitupTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2803113B95C8FF06C114D6834F0CE8DE /* Pods-Newsetupfor gitup */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Newsetupfor gitup"; path = Pods_Newsetupfor_gitup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289392E1BE21AFF4FF75BFB0050E14FD /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		335596EBC8EA538E2EDB05F6158A084D /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests.modulemap"; sourceTree = "<group>"; };
+		36C6E728FD9F2A6D61A0D3B1B9DE1B43 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests-Info.plist"; sourceTree = "<group>"; };
+		3767E4D93EB14CBC1AF313D9EC8605C4 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		415EF883E80FF0E054E9356D05F5E888 /* Pods-Newsetupfor gitup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Newsetupfor gitup-umbrella.h"; sourceTree = "<group>"; };
+		428CAC10A5CF8B084BCCEF359B79D6A0 /* Pods-Newsetupfor gitupTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Newsetupfor gitupTests-Info.plist"; sourceTree = "<group>"; };
+		467618466DB2F8336A713EDE34AF3CE5 /* Pods-Newsetupfor gitupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Newsetupfor gitupTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F02405A139AE8A522CF039AB884B149 /* Pods-Newsetupfor gitupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Newsetupfor gitupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		501CEB95D3349026CE2913405E5423FC /* Pods-Newsetupfor gitupTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Newsetupfor gitupTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53608FA0E39510FD1B752B6D689413E0 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests"; path = Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567CAE787DD80F638B31EEAD0C7024E6 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57AC234578EC796DA3A64390D9F94C62 /* Pods-Newsetupfor gitup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Newsetupfor gitup.modulemap"; sourceTree = "<group>"; };
+		5E24980AE08D7947175E347CABFD10EE /* Pods-Newsetupfor gitupTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Newsetupfor gitupTests-dummy.m"; sourceTree = "<group>"; };
+		6B507355B2579B7C2ADB13A560FC7B6A /* Pods-Newsetupfor gitup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Newsetupfor gitup.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		780009F1928B02939D23BAFCB7436063 /* Pods-Newsetupfor gitupTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Newsetupfor gitupTests-umbrella.h"; sourceTree = "<group>"; };
+		7F0A77EBA487C80AA12AB3D3398BB2E7 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests-dummy.m"; sourceTree = "<group>"; };
+		8DACCA6BDA21BF1644552244F08B7AB0 /* Pods-Newsetupfor gitup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Newsetupfor gitup-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A30F3A632DEC09FE950EEA800BEF3887 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests-umbrella.h"; sourceTree = "<group>"; };
+		A772689E9BCBBCF86354376BA20B1B3C /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0AC8CBDA6353E8C4D0DFA918D395063 /* Pods-Newsetupfor gitup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Newsetupfor gitup.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D3927DF72F7BBD822163A74DCA2613 /* Pods-Newsetupfor gitup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Newsetupfor gitup-dummy.m"; sourceTree = "<group>"; };
+		EE51B44F687FB4F693F549798F4164C7 /* Pods-Newsetupfor gitup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Newsetupfor gitup-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF35F56DF86BD8336E8158C01EDD8C7A /* Pods-Newsetupfor gitupTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Newsetupfor gitupTests"; path = Pods_Newsetupfor_gitupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F325BB7383D2064ACDEFED40F7000E5A /* Pods-Newsetupfor gitupTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Newsetupfor gitupTests.modulemap"; sourceTree = "<group>"; };
+		FAE8130A5D6D3E3FAC26B95B850F7306 /* Pods-Newsetupfor gitup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Newsetupfor gitup-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A13A81076ABDFADC6C460096100893D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620509385CCF61D63759F8B62F172550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8D5C4F495A5DF10757E6A100327D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDFA8C5BE1D20091EA5877BB48B55F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF24E3031671BEA0CBC09FC5750972E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8170E0AD89606E80346318CBCA42C558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073D496CEFA0D78D623D099A99AFE168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2803113B95C8FF06C114D6834F0CE8DE /* Pods-Newsetupfor gitup */,
+				53608FA0E39510FD1B752B6D689413E0 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */,
+				EF35F56DF86BD8336E8158C01EDD8C7A /* Pods-Newsetupfor gitupTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F6111B00B3DB873DC5BAA5A49A16584 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				335596EBC8EA538E2EDB05F6158A084D /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.modulemap */,
+				A772689E9BCBBCF86354376BA20B1B3C /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-acknowledgements.markdown */,
+				567CAE787DD80F638B31EEAD0C7024E6 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-acknowledgements.plist */,
+				7F0A77EBA487C80AA12AB3D3398BB2E7 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-dummy.m */,
+				36C6E728FD9F2A6D61A0D3B1B9DE1B43 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-Info.plist */,
+				A30F3A632DEC09FE950EEA800BEF3887 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-umbrella.h */,
+				3767E4D93EB14CBC1AF313D9EC8605C4 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig */,
+				289392E1BE21AFF4FF75BFB0050E14FD /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig */,
+			);
+			name = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests";
+			path = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests";
+			sourceTree = "<group>";
+		};
+		889291E8D0C13F478BADAA56CD7B672B /* Pods-Newsetupfor gitup */ = {
+			isa = PBXGroup;
+			children = (
+				57AC234578EC796DA3A64390D9F94C62 /* Pods-Newsetupfor gitup.modulemap */,
+				FAE8130A5D6D3E3FAC26B95B850F7306 /* Pods-Newsetupfor gitup-acknowledgements.markdown */,
+				EE51B44F687FB4F693F549798F4164C7 /* Pods-Newsetupfor gitup-acknowledgements.plist */,
+				E2D3927DF72F7BBD822163A74DCA2613 /* Pods-Newsetupfor gitup-dummy.m */,
+				8DACCA6BDA21BF1644552244F08B7AB0 /* Pods-Newsetupfor gitup-Info.plist */,
+				415EF883E80FF0E054E9356D05F5E888 /* Pods-Newsetupfor gitup-umbrella.h */,
+				B0AC8CBDA6353E8C4D0DFA918D395063 /* Pods-Newsetupfor gitup.debug.xcconfig */,
+				6B507355B2579B7C2ADB13A560FC7B6A /* Pods-Newsetupfor gitup.release.xcconfig */,
+			);
+			name = "Pods-Newsetupfor gitup";
+			path = "Target Support Files/Pods-Newsetupfor gitup";
+			sourceTree = "<group>";
+		};
+		C55EC1CD48227E225A406860809B9438 /* Pods-Newsetupfor gitupTests */ = {
+			isa = PBXGroup;
+			children = (
+				F325BB7383D2064ACDEFED40F7000E5A /* Pods-Newsetupfor gitupTests.modulemap */,
+				1932B43C923D418C85AD50C9A0001789 /* Pods-Newsetupfor gitupTests-acknowledgements.markdown */,
+				501CEB95D3349026CE2913405E5423FC /* Pods-Newsetupfor gitupTests-acknowledgements.plist */,
+				5E24980AE08D7947175E347CABFD10EE /* Pods-Newsetupfor gitupTests-dummy.m */,
+				428CAC10A5CF8B084BCCEF359B79D6A0 /* Pods-Newsetupfor gitupTests-Info.plist */,
+				780009F1928B02939D23BAFCB7436063 /* Pods-Newsetupfor gitupTests-umbrella.h */,
+				4F02405A139AE8A522CF039AB884B149 /* Pods-Newsetupfor gitupTests.debug.xcconfig */,
+				467618466DB2F8336A713EDE34AF3CE5 /* Pods-Newsetupfor gitupTests.release.xcconfig */,
+			);
+			name = "Pods-Newsetupfor gitupTests";
+			path = "Target Support Files/Pods-Newsetupfor gitupTests";
+			sourceTree = "<group>";
+		};
+		CA687617C7434D5A3F95A80F615A187F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				889291E8D0C13F478BADAA56CD7B672B /* Pods-Newsetupfor gitup */,
+				6F6111B00B3DB873DC5BAA5A49A16584 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */,
+				C55EC1CD48227E225A406860809B9438 /* Pods-Newsetupfor gitupTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				073D496CEFA0D78D623D099A99AFE168 /* Products */,
+				CA687617C7434D5A3F95A80F615A187F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D126436A01F4D7F79895198A29463DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204DD7E549D76C9DAFB665BE6952EA00 /* Pods-Newsetupfor gitup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6312A71C974FC5A7125C360F98691A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E42823821F609140E986BA55B5A181D /* Pods-Newsetupfor gitupTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6088298E7D4E8BA8BD2787048D886E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3382D9CBD638EB2A7AD53C8FF8AE076 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		063F473402EAB393C1CE3F27E74FD1EE /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF611292BD8D7EACBF3AD185B593D8B6 /* Build configuration list for PBXNativeTarget "Pods-Newsetupfor gitup-Newsetupfor gitupUITests" */;
+			buildPhases = (
+				B6088298E7D4E8BA8BD2787048D886E5 /* Headers */,
+				C61C91430A305663A0DE98C90002DEFA /* Sources */,
+				7CF24E3031671BEA0CBC09FC5750972E /* Frameworks */,
+				14192DAAA025DE8A43A84051BB772EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests";
+			productName = Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests;
+			productReference = 53608FA0E39510FD1B752B6D689413E0 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFF0DC9494B2D6A2DCA1800CECF17160 /* Pods-Newsetupfor gitupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DFAA04DDE15907DAD6C43C61E7139A /* Build configuration list for PBXNativeTarget "Pods-Newsetupfor gitupTests" */;
+			buildPhases = (
+				AD6312A71C974FC5A7125C360F98691A /* Headers */,
+				9E56E550BF9635E698F6C7DE4E9F7641 /* Sources */,
+				7A8D5C4F495A5DF10757E6A100327D42 /* Frameworks */,
+				56940D9EB365AA15F0945149147B2469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B137F83DD25FC9B6C548E04656D1A4BF /* PBXTargetDependency */,
+			);
+			name = "Pods-Newsetupfor gitupTests";
+			productName = Pods_Newsetupfor_gitupTests;
+			productReference = EF35F56DF86BD8336E8158C01EDD8C7A /* Pods-Newsetupfor gitupTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8B07C689206B9FB8C34D55B19850834 /* Pods-Newsetupfor gitup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99A6FB2CB659037298A5DA758A21C28 /* Build configuration list for PBXNativeTarget "Pods-Newsetupfor gitup" */;
+			buildPhases = (
+				0D126436A01F4D7F79895198A29463DB /* Headers */,
+				82FEF3C2071B9499490EA68EB2C0F58E /* Sources */,
+				1A13A81076ABDFADC6C460096100893D /* Frameworks */,
+				D193DE320CDAD3D9EA7489DC88F64129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Newsetupfor gitup";
+			productName = Pods_Newsetupfor_gitup;
+			productReference = 2803113B95C8FF06C114D6834F0CE8DE /* Pods-Newsetupfor gitup */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 073D496CEFA0D78D623D099A99AFE168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B07C689206B9FB8C34D55B19850834 /* Pods-Newsetupfor gitup */,
+				063F473402EAB393C1CE3F27E74FD1EE /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests */,
+				AFF0DC9494B2D6A2DCA1800CECF17160 /* Pods-Newsetupfor gitupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14192DAAA025DE8A43A84051BB772EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56940D9EB365AA15F0945149147B2469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193DE320CDAD3D9EA7489DC88F64129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FEF3C2071B9499490EA68EB2C0F58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805162101A1D035477A9B4036A64EA1A /* Pods-Newsetupfor gitup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E56E550BF9635E698F6C7DE4E9F7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13F47FC981BF7785D4AAF8BD5775F8 /* Pods-Newsetupfor gitupTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C91430A305663A0DE98C90002DEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0EE10048D2662711FB61FA8576E989 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B137F83DD25FC9B6C548E04656D1A4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Newsetupfor gitup";
+			target = D8B07C689206B9FB8C34D55B19850834 /* Pods-Newsetupfor gitup */;
+			targetProxy = 757315D92BE42E7FD2CEF1932F76FA87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D2DD8EE253167E8590C7D38B66FB587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B507355B2579B7C2ADB13A560FC7B6A /* Pods-Newsetupfor gitup.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Newsetupfor gitup/Pods-Newsetupfor gitup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Newsetupfor gitup/Pods-Newsetupfor gitup.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75F18FDAC0DD9242A5034922FAA98EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289392E1BE21AFF4FF75BFB0050E14FD /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests/Pods-Newsetupfor gitup-Newsetupfor gitupUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests/Pods-Newsetupfor gitup-Newsetupfor gitupUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8231C2DE083318258DF85B1DFB13F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F02405A139AE8A522CF039AB884B149 /* Pods-Newsetupfor gitupTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Newsetupfor gitupTests/Pods-Newsetupfor gitupTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Newsetupfor gitupTests/Pods-Newsetupfor gitupTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		890E907EA01FF19A7B4E82F3F562DE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3767E4D93EB14CBC1AF313D9EC8605C4 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests/Pods-Newsetupfor gitup-Newsetupfor gitupUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests/Pods-Newsetupfor gitup-Newsetupfor gitupUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA623825FA94A25D7024A61996709A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AC8CBDA6353E8C4D0DFA918D395063 /* Pods-Newsetupfor gitup.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Newsetupfor gitup/Pods-Newsetupfor gitup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Newsetupfor gitup/Pods-Newsetupfor gitup.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBFA6203799682DB09F77C33682E7453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467618466DB2F8336A713EDE34AF3CE5 /* Pods-Newsetupfor gitupTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Newsetupfor gitupTests/Pods-Newsetupfor gitupTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Newsetupfor gitupTests/Pods-Newsetupfor gitupTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99A6FB2CB659037298A5DA758A21C28 /* Build configuration list for PBXNativeTarget "Pods-Newsetupfor gitup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA623825FA94A25D7024A61996709A43 /* Debug */,
+				0D2DD8EE253167E8590C7D38B66FB587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF611292BD8D7EACBF3AD185B593D8B6 /* Build configuration list for PBXNativeTarget "Pods-Newsetupfor gitup-Newsetupfor gitupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890E907EA01FF19A7B4E82F3F562DE1D /* Debug */,
+				75F18FDAC0DD9242A5034922FAA98EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DFAA04DDE15907DAD6C43C61E7139A /* Build configuration list for PBXNativeTarget "Pods-Newsetupfor gitupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8231C2DE083318258DF85B1DFB13F951 /* Debug */,
+				CBFA6203799682DB09F77C33682E7453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

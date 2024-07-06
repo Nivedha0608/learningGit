@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17FCA22E3B2FD19C94D1B5DE /* Pods_Newsetupfor_gitup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7855578632343A9108762FC /* Pods_Newsetupfor_gitup.framework */; };
+		3FA6EE91F388578C6B590CDD /* Pods_Newsetupfor_gitupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5343F30C160FBFD2A14C5B7 /* Pods_Newsetupfor_gitupTests.framework */; };
 		840DA21F2C397A2000AB8F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA21E2C397A2000AB8F84 /* AppDelegate.swift */; };
 		840DA2212C397A2000AB8F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2202C397A2000AB8F84 /* SceneDelegate.swift */; };
 		840DA2232C397A2000AB8F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2222C397A2000AB8F84 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		840DA2362C397A2100AB8F84 /* Newsetupfor_gitupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2352C397A2100AB8F84 /* Newsetupfor_gitupTests.swift */; };
 		840DA2402C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA23F2C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift */; };
 		840DA2422C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DA2412C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift */; };
+		D7B0702423DB1DF84CBC03E3 /* Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94B66A585797CA0D9401D7 /* Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BF79D07C9A49413863930ED /* Pods-Newsetupfor gitup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsetupfor gitup.debug.xcconfig"; path = "Target Support Files/Pods-Newsetupfor gitup/Pods-Newsetupfor gitup.debug.xcconfig"; sourceTree = "<group>"; };
+		1E4C243DE8FABB033CAE459B /* Pods-Newsetupfor gitupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsetupfor gitupTests.debug.xcconfig"; path = "Target Support Files/Pods-Newsetupfor gitupTests/Pods-Newsetupfor gitupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		840DA21B2C397A2000AB8F84 /* Newsetupfor gitup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Newsetupfor gitup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840DA21E2C397A2000AB8F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840DA2202C397A2000AB8F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		840DA23B2C397A2100AB8F84 /* Newsetupfor gitupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Newsetupfor gitupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840DA23F2C397A2100AB8F84 /* Newsetupfor_gitupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newsetupfor_gitupUITests.swift; sourceTree = "<group>"; };
 		840DA2412C397A2100AB8F84 /* Newsetupfor_gitupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newsetupfor_gitupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B94B66A585797CA0D9401D7 /* Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D849F266E6F15F0ABA3076 /* Pods-Newsetupfor gitupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsetupfor gitupTests.release.xcconfig"; path = "Target Support Files/Pods-Newsetupfor gitupTests/Pods-Newsetupfor gitupTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5343F30C160FBFD2A14C5B7 /* Pods_Newsetupfor_gitupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Newsetupfor_gitupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96D7DD4FEBE737C44CF7633 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig"; path = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests/Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7855578632343A9108762FC /* Pods_Newsetupfor_gitup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Newsetupfor_gitup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B7957A55188A27164AD71E /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig"; path = "Target Support Files/Pods-Newsetupfor gitup-Newsetupfor gitupUITests/Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F35F2FD7358F997F48B447D9 /* Pods-Newsetupfor gitup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsetupfor gitup.release.xcconfig"; path = "Target Support Files/Pods-Newsetupfor gitup/Pods-Newsetupfor gitup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FCA22E3B2FD19C94D1B5DE /* Pods_Newsetupfor_gitup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA6EE91F388578C6B590CDD /* Pods_Newsetupfor_gitupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B0702423DB1DF84CBC03E3 /* Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83661DF51451359B990664D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7855578632343A9108762FC /* Pods_Newsetupfor_gitup.framework */,
+				8B94B66A585797CA0D9401D7 /* Pods_Newsetupfor_gitup_Newsetupfor_gitupUITests.framework */,
+				B5343F30C160FBFD2A14C5B7 /* Pods_Newsetupfor_gitupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		840DA2122C397A2000AB8F84 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				840DA2342C397A2100AB8F84 /* Newsetupfor gitupTests */,
 				840DA23E2C397A2100AB8F84 /* Newsetupfor gitupUITests */,
 				840DA21C2C397A2000AB8F84 /* Products */,
+				F7E0931AA403CAC8F3233ECE /* Pods */,
+				83661DF51451359B990664D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = "Newsetupfor gitupUITests";
 			sourceTree = "<group>";
 		};
+		F7E0931AA403CAC8F3233ECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BF79D07C9A49413863930ED /* Pods-Newsetupfor gitup.debug.xcconfig */,
+				F35F2FD7358F997F48B447D9 /* Pods-Newsetupfor gitup.release.xcconfig */,
+				C7B7957A55188A27164AD71E /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig */,
+				B96D7DD4FEBE737C44CF7633 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig */,
+				1E4C243DE8FABB033CAE459B /* Pods-Newsetupfor gitupTests.debug.xcconfig */,
+				A7D849F266E6F15F0ABA3076 /* Pods-Newsetupfor gitupTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840DA2452C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitup" */;
 			buildPhases = (
+				21B1D34F4063524564BE2A4A /* [CP] Check Pods Manifest.lock */,
 				840DA2172C397A2000AB8F84 /* Sources */,
 				840DA2182C397A2000AB8F84 /* Frameworks */,
 				840DA2192C397A2000AB8F84 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840DA2482C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitupTests" */;
 			buildPhases = (
+				AE35E9D76DDC00ED21A322B0 /* [CP] Check Pods Manifest.lock */,
 				840DA22D2C397A2100AB8F84 /* Sources */,
 				840DA22E2C397A2100AB8F84 /* Frameworks */,
 				840DA22F2C397A2100AB8F84 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840DA24B2C397A2100AB8F84 /* Build configuration list for PBXNativeTarget "Newsetupfor gitupUITests" */;
 			buildPhases = (
+				A68A9B7E5D07BD05324CEDCA /* [CP] Check Pods Manifest.lock */,
 				840DA2372C397A2100AB8F84 /* Sources */,
 				840DA2382C397A2100AB8F84 /* Frameworks */,
 				840DA2392C397A2100AB8F84 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21B1D34F4063524564BE2A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Newsetupfor gitup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68A9B7E5D07BD05324CEDCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Newsetupfor gitup-Newsetupfor gitupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE35E9D76DDC00ED21A322B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Newsetupfor gitupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		840DA2172C397A2000AB8F84 /* Sources */ = {
@@ -437,6 +550,7 @@
 		};
 		840DA2462C397A2100AB8F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF79D07C9A49413863930ED /* Pods-Newsetupfor gitup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +578,7 @@
 		};
 		840DA2472C397A2100AB8F84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35F2FD7358F997F48B447D9 /* Pods-Newsetupfor gitup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +606,7 @@
 		};
 		840DA2492C397A2100AB8F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4C243DE8FABB033CAE459B /* Pods-Newsetupfor gitupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +626,7 @@
 		};
 		840DA24A2C397A2100AB8F84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D849F266E6F15F0ABA3076 /* Pods-Newsetupfor gitupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +646,7 @@
 		};
 		840DA24C2C397A2100AB8F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B7957A55188A27164AD71E /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +664,7 @@
 		};
 		840DA24D2C397A2100AB8F84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96D7DD4FEBE737C44CF7633 /* Pods-Newsetupfor gitup-Newsetupfor gitupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
